@@ -1,0 +1,180 @@
+/*ideas for content: 
+	http://www.recipegirl.com/;*/
+
+/*ideas for style:
+	hakim.se (color and shapes)
+	makersquare.com (fun features)
+	http://www.romainbriaux.fr/ (zoom in on hover)*/
+
+/*----------------Wrapper ------------*/
+@import url(http://fonts.googleapis.com/css?family=Special+Elite|Cinzel+Decorative);
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: courier new;
+}
+.wrapper {
+	border: gray 1px dashed;
+	padding-top: 0px;
+}
+/*-------------nav bar--------------------------*/
+.nav_bar{
+	border: gray 1px dashed;
+	background-color: #505050;
+	width: 100%;
+	position: fixed;
+}
+.nav_btn{
+	border: gray 1px dashed;
+	display: inline-block;
+	color: white;
+	margin: 5px 20px;
+	font-weight: bold;
+	width: 120px;
+/*	font-size: 22px;*/
+	height: 18px;
+	text-align: center;
+	text-decoration: none;
+}
+a.nav_btn:hover {
+	border-radius: 3px;
+	background-color: #F8F8F8;
+/*	color: black;*/
+	color: #25D500;
+	border: 1px solid #F8F8F8;
+}
+#search{
+	position: absolute;
+	right: 20px;
+	margin: 5px 0px;
+}
+#search_box{
+	position: absolute;
+	right: 150px;
+	margin: 5px 0px;
+	border-radius: 6px;
+	border: none;
+	background-color: white;
+}
+/*------------header (logo and name)----------------*/
+.header{
+	border: gray 1px dashed;
+	height: 120px;
+/*	position: relative;
+	top: 32px;*/
+}
+#header_img{
+	width: 120px;
+}
+#header_title{
+	border: gray 1px dashed;
+	font-family: 'Special Elite', "courier new bold" ; 
+/*	font-family: 'Cinzel Decorative', cursive;*/     /* Another font option*/
+	font-size: 60px;
+	font-weight: bold;
+/*	line-height: 40px;*/     /*Trying to center the text vertically*/
+	display: inline-block;
+	position: relative;
+	bottom: 33%;
+}
+/*------------banner image -----------------*/
+.jumbotron{
+	border: gray 1px dashed;	
+	width: 100%;
+	height: 240px;
+	font-size: 72px;
+	display: inline-block;
+/*	background-image: url("http://placehold.it/350x150");*/  /*-------------Placehoder banner*/
+/*	background-image: url("http://fillmurray.com/360/100%");*/  /*-----------Placehoder banner*/
+	}
+/*.jumbotron p {
+	text-align: center;
+	color: gray;
+	position: relative;
+	top: 67%;
+}*/
+  /*-----------------body -----------------*/
+.body{
+	position:relative;
+}
+ .recipe-1a {
+ 	border: gray 1px dashed;
+ 	position:absolute;
+ 	top:0;
+ 	left:0;
+ 	width:50%;
+ 	height: 240px;
+}
+.recipe-1a img{
+	float: left;
+}
+ .recipe-1b {
+ 	border: gray 1px dashed;
+ 	position:absolute;
+ 	top:0;
+ 	right:0;
+ 	width:50%;
+	height: 240px;
+}
+.recipe-1b img{
+	float: left;
+	 .recipe-1a {
+ 	border: gray 1px dashed;
+ 	position:absolute;
+ 	top:0;
+ 	left:0;
+ 	width:50%;
+ 	height: 240px;
+}
+ .recipe-2a {
+ 	border: gray 1px dashed;
+ 	position:absolute;
+ 	top:240;
+ 	left:0;
+ 	width:50%;
+ 	height: 240px;
+}
+.recipe-2a img{
+	float: left;
+}
+ .recipe-2b {
+ 	border: gray 1px dashed;
+ 	position:absolute;
+ 	top:240;
+ 	right:0;
+ 	width:50%;
+	height: 240px;
+}
+.recipe-2b img{
+	float: left;
+}
+ .recipe-3a {
+ 	border: gray 1px dashed;
+ 	position:absolute;
+ 	top:480;
+ 	left:0;
+ 	width:50%;
+ 	height: 240px;
+}
+.recipe-3a img{
+	float: left;
+}
+ .recipe-3b {
+ 	border: gray 1px dashed;
+ 	position:absolute;
+ 	top:480;
+ 	right:0;
+ 	width:50%;
+	height: 240px;
+}
+.recipe-3b img{
+	float: left;
+}
+/*-----------------juice sidebar (scrolls)-----------------*/
+.juice{
+
+}
+/*-----------------milk sidebar (scrolls)-----------------*/
+.milk{
+
+}
