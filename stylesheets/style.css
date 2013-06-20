@@ -104,59 +104,58 @@ a.nav_btn:hover {
  	position:absolute;
  	top:0;
  	left:0;
- 	width:50%;
- 	height: 240px;
+ 	width:46%;
+ 	height: 200px;
 }
 .recipe-1a img{
 	float: left;
+	width: 25%;	
 }
  .recipe-1b {
  	border: gray 1px dashed;
  	position:absolute;
  	top:0;
  	right:0;
- 	width:50%;
-	height: 240px;
+ 	width:46%;
+	height: 200px;
 }
 .recipe-1b img{
 	float: left;
-	 .recipe-1a {
- 	border: gray 1px dashed;
- 	position:absolute;
- 	top:0;
- 	left:0;
- 	width:50%;
- 	height: 240px;
+	width: 25%;
 }
+
  .recipe-2a {
  	border: gray 1px dashed;
  	position:absolute;
- 	top:240;
+ 	top:200px;
  	left:0;
- 	width:50%;
- 	height: 240px;
+ 	width: 46%;
+ 	height: 200px;
 }
 .recipe-2a img{
 	float: left;
+	width: 25%;
 }
  .recipe-2b {
  	border: gray 1px dashed;
  	position:absolute;
- 	top:240;
+ 	top:200px;
  	right:0;
- 	width:50%;
-	height: 240px;
+ 	float: right;
+ 	width:46%;
+	height: 200px;
 }
 .recipe-2b img{
 	float: left;
+	width: 25%;
 }
  .recipe-3a {
  	border: gray 1px dashed;
  	position:absolute;
- 	top:480;
+ 	top:400px;
  	left:0;
- 	width:50%;
- 	height: 240px;
+ 	width:46%;
+ 	height: 200px;
 }
 .recipe-3a img{
 	float: left;
@@ -164,17 +163,23 @@ a.nav_btn:hover {
  .recipe-3b {
  	border: gray 1px dashed;
  	position:absolute;
- 	top:480;
+ 	top:400px;
  	right:0;
- 	width:50%;
-	height: 240px;
+ 	width:46%;
+	height: 200px;
 }
 .recipe-3b img{
 	float: left;
 }
 /*-----------------juice sidebar (scrolls)-----------------*/
 .juice{
+border: 1px dashed gray;
+background-color: yellow;
+width: 25px;
+height:180px;
 
+position: fixed
+left: 46%;
 }
 /*-----------------milk sidebar (scrolls)-----------------*/
 .milk{
