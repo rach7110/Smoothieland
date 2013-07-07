@@ -60,10 +60,10 @@ a.nav_btn:hover {
 }
 /*------------header (logo and name)----------------*/
 .header{
-	border: gray 1px dashed;
-	height: 120px;
-/*	position: relative;
-	top: 32px;*/
+  border: gray 1px dashed;
+  height: 120px;
+  margin-top: 32px;
+
 }
 #header_img{
 	width: 120px;
